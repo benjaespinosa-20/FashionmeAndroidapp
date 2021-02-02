@@ -1,0 +1,375 @@
+<resources>
+    <string name="app_language">english</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_incorrect_password">Wrong password</string>
+    <string name="error_field_required">Required field</string>
+    <string name="error_server">Server error</string>
+    <string name="error_incorrect_email">Unregister email</string>
+    <string name="error_network">Network connection not available</string>
+
+    <!-- Clothe detail -->
+    <string name="image_tooltip">Image</string>
+    <string name="clothe_detail_name">name</string>
+    <string name="clothe_detail_comment">comment</string>
+    <string name="clothe_detail_brand">Brand: %s</string>
+    <string name="clothe_detail_price">Price: $%s</string>
+
+    <!-- Test -->
+    <string name="dummy_test">Test</string>
+    <string name="color_test_indication">Answer the following questions honestly.</string>
+    <string name="color_test_question_one">Does the color of your eyes have something yellow?</string>
+    <string name="color_test_question_two">Are your eyes clear?</string>
+    <string name="color_test_question_three">Does your eyes have the same color completely?</string>
+    <string name="color_test_question_four">When you sunburn your skin turns red?</string>
+    <string name="color_test_question_five">Is your skin white, ivory or pink on the face?</string>
+    <string name="color_test_question_six">Do you have spots, marked acne or scars on the skin of your face?</string>
+    <string name="color_test_question_seven">Does the color of your hair have yellow or orange tones?</string>
+    <string name="color_test_question_eight">Does the color of your hair have more blond or orange tones than another color?</string>
+    <string name="color_test_question_nine">Is the color of your hair a single tone?</string>
+    <string name="color_test_answer_yes">Yes</string>
+    <string name="color_test_answer_no">No</string>
+    <string name="button_send">Send</string>
+
+    <!-- User profile -->
+    <string name="user_profile_name">Name</string>
+    <string name="user_profile_email">Email</string>
+    <string name="user_profile_genre">Gender</string>
+    <string name="user_profile_color">Color</string>
+    <string name="user_profile_body">Body</string>
+
+    <!-- Characteristics -->
+    <string name="list_characteristic_desc">Feature description</string>
+    <string name="characteristic_instruction">Select the features corresponding to your body</string>
+    <string name="caracteristicasl_cuerpo">Specify body characteristics</string>
+
+    <!-- Register form -->
+    <string name="form_register_name">Name</string>
+    <string name="form_register_email">Email</string>
+    <string name="form_register_confirm_password">Confirm Password</string>
+    <string name="form_register_signup">Register</string>
+    <string name="form_register_gender">Gender</string>
+    <string name="form_register_gender_woman">Woman</string>
+    <string name="form_register_gender_man">Man</string>
+    <string name="error_password_confirmation">Password confirmation does not match</string>
+    <string name="form_register_gender_woman_value">woman</string>
+    <string name="form_register_gender_man_value">man</string>
+
+    <!-- Home -->
+    <string name="guest">Guest</string>
+
+    <string name="offline">Offline</string>
+    <string name="empty_list">Empty</string>
+    <string name="hello_username">Hello %s</string>
+    <string name="your_closet_ideal">Your ideal closet</string>
+    <string name="closet_fme">FME Closet</string>
+    <string name="looks">Styles</string>
+    <string name="trends">Trends</string>
+    <string name="dress_code">Dress code</string>
+    <string name="your_style">Your style</string>
+    <string name="tips">Tips</string>
+    <string name="welcome">Welcome!</string>
+    <string name="pasos">Steps to follow: </string>
+    <string name="continuar">Continue</string>
+    <string name="tomar_fotografia_cuerpo">Take body photo</string>
+    <string name="contestar_cuestionario">Answer the questions</string>
+    <string name="listo">Ready!!</string>
+
+    <string name="wishlist">Wishlist</string>
+    <string name="felicidades_text">Congratulations %s you have completed the identification phase and your results will be used to create your ideal closet !!</string>
+    <string name="tipo_de_cuerpo">Body type:</string>
+    <string name="body_type">body_type</string>
+    <string name="estacion">Season:</string>
+    <string name="color">color</string>
+    <string name="title_activity_trend">TrendActivity</string>
+    <string name="favs">Favorites</string>
+
+    <string name="building">Building…</string>
+    <string name="category">Category</string>
+    <string name="mensaje_go_test">The body type will be calculated. Meanwhile, you can answer the test</string>
+    <string name="go">Go</string>
+
+    <string name="color_test_question">Question</string>
+    <string name="try_again">Try again</string>
+    <string name="share">Share</string>
+    <string name="share_with">Share with</string>
+
+    <string name="contact">Contact</string>
+    <string name="create_look">Create look</string>
+    <string name="options">Options</string>
+
+    <!-- Navigation drawer -->
+    <string name="home_item">Home</string>
+    <string name="productos_item">Products</string>
+    <string name="compras_item">Car</string>
+    <string name="ordenes_item">Ordes</string>
+    <string name="facturas_item">Invoces</string>
+    <string name="log_out_item">Log out</string>
+    <string name="configuracion_item">Configuration</string>
+
+    <string name="no_result">No results</string>
+    <string name="try_later">Try again later</string>
+    <string name="your_style_is">Your style:</string>
+    <string name="wayDressing">Way dressing</string>
+
+    <!-- Extra test colorimetria -->
+    <string name="questions_venas">What color are your veins?</string>
+    <string name="calido_1">
+        Skin: golden, bronze or olive.\nEyes: honey, dark brown, green or mixed colors.\nHair: Brown, dark chestnut, reddish, golden blonde.
+    </string>
+    <string name="calido_2">
+        Skin: pink, peach or ivory.\nEyes: blue, green, honey color, hazelnut.\nHair: Black, Coffee or Ashen.
+    </string>
+    <string name="frio_1">
+        Skin: white, beige or olive color.\nEyes: Deep blue color, dark brown or hazelnut coffee,\nHair: Black, Coffee or Ashen.
+    </string>
+    <string name="frio_2">
+        Skin: pink, light beige, yellowish.\nEyes: gray blue, green, gold, brown hazel.\nHair: Dark red, light blond, blond.
+    </string>
+    <string name="descripciones_pregunta">With which of these descriptions you identify more:</string>
+
+    <!-- Make look -->
+    <string name="edit_text">Double click to edit text</string>
+    <string name="complete">FInish</string>
+    <string name="publish_comment">Write something…</string>
+    <string name="over_text_limit">You have exceeded the limit</string>
+
+    <!-- CALENDAR -->
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="material_calendar_wednesday">W</string>
+    <string name="material_calendar_thursday">T</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">S</string>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+
+    <!-- Welcome text -->
+    <string name="welcome_title">Welcome to Fashion Me, your personal image consultant.</string>
+    <string name="welcome_body">In Fme you will know your body type as well as the colors that are ideal for you.\n\n
+        With these results your ideal, unique and unrepeatable closet will be created so you can assemble the best looks depending on your characteristics, these garments can be purchased if you wish and you will learn to have a new habit of buying according to your own characteristics to always see you phenomenal.\n\n
+        We will give you the best tips on how to dress and you will always have a look for every occasion.\n\n
+        You will know all the trends and dress codes to dress easily and be always fashionable, since from now on you will only get the most favors!!!</string>
+
+    <string name="title_recommend">Recommendation</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="filter">Subcategories</string>
+    <string name="show_looks">See looks</string>
+    <string name="look_saved">Saved look</string>
+    <string name="or">or</string>
+    <string name="resume">RESUME LOCATION UPDATES</string>
+    <string name="pause">Pause</string>
+    <string name="about">About</string>
+    <string name="version_app">Version %s</string>
+    <string name="visit_webpage">Visit the website</string>
+    <string name="visit_instagram">Visit us on Instagram</string>
+    <string name="trends_title_favorites">Trends</string>
+    <string name="tips_title_favorites">Tips</string>
+    <string name="trips_title_favorites">Trips</string>
+    <string name="clothes_title_favorites">Clothes</string>
+    <string name="ways_title_favorites">Ways dressing</string>
+    <string name="configuration">Settings</string>
+    <string name="settings_list_language_dialog_title">Choose language</string>
+    <string name="settings_list_language_title">Language</string>
+    <string name="settings">Settings</string>
+    <string name="item_home_recommendations">Recommendation</string>
+    <string name="item_home_create_look">Make look</string>
+    <string name="item_home_journey">Journey</string>
+    <string name="not_answer_test_style">You have not answered the style test</string>
+    <string name="edit_photo_profile">Change profile picture</string>
+    <string name="title_activity_settings">Configuration</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data  sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_photo_title">Profile picture</string>
+    <string name="photo_profile">Profile picture</string>
+    <string name="basic_configuration">Basic configuration</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="delete_photo">Delete picture</string>
+    <string name="allow_access_location">Allow Fashion Me to access to your location?</string>
+    <string name="message_allow_gps">Fashion Me uses the location to activate some functions, help you have clothing suggestions, know the weather and much more.</string>
+    <string name="allow_read_storage">Allow Fashion Me to use phone storage?</string>
+    <string name="message_allow_read_storage">Fashion Me can store and access certain information, such as photos of the phone and the SD card.</string>
+    <string name="button_deny_access">DENNY</string>
+    <string name="permission_denied">Permission denied.</string>
+    <string name="button_allow_access">ALLOW</string>
+    <string name="profile">Profile</string>
+    <string name="shopping">Shopping</string>
+    <string name="my_looks">My looks</string>
+    <string name="chat">Chat</string>
+
+    <string-array name="settings_list_languages">
+        <item>Spanish</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="settings_list_languages_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="fme_message">Notification</string>
+    <string name="button_save">Save</string>
+    <string name="title_activity_settings_profile">Profile picture</string>
+    <string name="saving">Saving…</string>
+    <string name="allow_camera_storage">Fashion Me permis</string>
+    <string name="message_allow_camera_storage">Fashion Me can use the camera, as well as store and access certain information, such as photos of the phone and the SD card.</string>
+    <string name="error_show_body_photo">Can not show the image, try again</string>
+    <string name="sending">Sending</string>
+    <string name="please_wait">Please wait</string>
+    <string name="error_password_unless_8">The password must have at least 8 characters</string>
+    <string name="invalid_name_characters">Your name can not contain numbers or special characters</string>
+    <string name="btn_send_chat">Send</string>
+    <string name="chat_assessor">Stylist</string>
+    <string name="not_open_activity_assessor_chat">Could not open chat activity</string>
+    <string name="wait_assessor_message">"Wait a moment while a consultant is available "</string>
+    <string name="exit">Exit</string>
+    <string name="aceptar">Accept</string>
+    <string name="no_chats_pending">No chats request</string>
+    <string name="no_chats_pending_description">At the moment there are no chat requests available, come back later</string>
+    <string name="no_chats">No chats</string>
+    <string name="no_chats_description">You do not have counseling chats yet. You can select an advice in the chat requests section.</string>
+    <string name="go_to_request_chat">Go to requests</string>
+    <string name="no_internet_connection_description">Check your Internet connection again and try again</string>
+    <string name="algo_salio_mal">Wow, something has gone wrong. Try again</string>
+    <string name="no_items">No matches found</string>
+    <string name="no_items_description">The item you requested did not yield any results</string>
+    <string name="play">Play</string>
+    <string name="show_contact">Show contact</string>
+    <string name="user_profile_face">Face</string>
+    <string name="loading">Loading…</string>
+    <string name="not_profile_found">Profile not found</string>
+    <string name="no_register">Not register</string>
+    <string name="form_register_country">Country</string>
+    <string name="not_genre_selected">Not genre selected</string>
+    <string name="not_country_selected">Not country selected</string>
+    <string name="item_home_hair">Hair</string>
+    <string name="item_home_visagism">Visagism</string>
+    <string name="item_home_makeup">Makeup</string>
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="form_register_birthday">Birthday</string>
+    <string name="get_premium">Upgrade Premium to access this item</string>
+    <string name="finish_trial_get_premium">Trial time has finished. Upgrade Premium subscription to continue using this item</string>
+    <string name="help">Help</string>
+    <string name="forgot_password">Forget your password?</string>
+    <string name="recover_password">Recover password</string>
+    <string name="action_recover_password">Recover password</string>
+    <string name="purchase">Purchases</string>
+    <string name="button_buy">Buy</string>
+
+    <!-- Items home description premium -->
+    <string name = "premium_description_ideal_closet"> Subscribe to Premium and get clothing suggestions in your ideal closet </string>
+    <string name = "premium_description_style"> Subscribe to Premium to answer the style test and get the right style for you </string>
+    <string name = "premium_description_visagism"> Know your face type and makeup tips by updating your Premium subscription </string>
+    <string name = "premium_description_face"> Know your face type by updating your Premium subscription </string>
+    <string name = "premium_description_dresscode"> To know the dress codes update your subscription to Premium </string>
+    <string name = "premium_description_journey"> Get clothing tips to take to your trips and create your checklist updating your subscription to Premium </string>
+    <string name="congrats_premium_title">Congrats you\'re Premium</string>
+    <string name="congrats_premium_body">You can now access all the features of the app</string>
+    <string name="premium_updated">Premium updated</string>
+
+    <!-- Settings -->
+    <string name="settings_toolbar_title">Toolbar</string>
+    <string name="settings_toolbar_description">Change toolbar color</string>
+    <string name="settings_icons_description">Change home icons color</string>
+    <string name="settings_icons_title">Icons</string>
+
+</resources>

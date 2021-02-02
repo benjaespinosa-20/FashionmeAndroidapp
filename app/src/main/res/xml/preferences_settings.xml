@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/photo_profile"
+        >
+        <mx.fayweb.fashionme.settings.PhotoProfilePreference
+            android:key="pref_photo"
+            android:defaultValue="@null"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.fayweb.fashionme.view.ClotheActivity">
+
+    <include
+        layout="@layout/actionbar"
+        android:id="@+id/action_bar_clothe"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_below="@id/action_bar_clothe"
+        android:id="@+id/rvClothe"/>
+
+    <LinearLayout
+        android:id="@+id/llEmptyListClothe"
+        android:layout_below="@+id/action_bar_clothe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/imgEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_sentiment_dissatisfied"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/empty_list"
+            android:textAppearance="@android:style/TextAppearance.Theme"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNetworkClothe"
+        android:layout_below="@+id/action_bar_clothe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/imgNetworkError"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_cloud_off"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="@string/offline"
+            android:textAppearance="@android:style/TextAppearance.Theme" />
+
+    </LinearLayout>
+
+</RelativeLayout>

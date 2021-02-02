@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/tv_show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:text="20"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_action_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:paddingStart="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:textSize="15sp"
+        android:text="@string/complete"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/et_sticker_text_input"
+        android:layout_below="@id/tv_action_done"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@null"
+        android:textSize="15sp"
+        android:hint="@string/publish_comment"
+        android:textColor="@color/colorWhite"
+        android:inputType="text|textMultiLine"
+        android:imeOptions="actionDone"
+        android:padding="10dp"
+        android:gravity="center"
+        android:singleLine="false"
+        />
+
+</RelativeLayout>

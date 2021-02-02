@@ -1,0 +1,487 @@
+<resources>
+    <string name="app_language">spanish</string>
+
+    <string name="default_notification_channel_id" translatable="false">fme_default_channel</string>
+    <string name="fme_message">Notificacion</string>
+    <string name="msg_token_fme" translatable="false">InstanceID Token: %s</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_login">Inicio de sesión</string>
+    <string name="title_activity_register">Registrar</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="action_sign_up">Regístrate</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_invalid_password">Contraseña inválida</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_server">Error en el servidor</string>
+    <string name="error_incorrect_email">Correo electrónico no registrado</string>
+    <string name="error_network">Conexión de red no disponible</string>
+
+    <!-- Clothe detail -->
+    <string name="image_tooltip">Imagen</string>
+    <string name="clothe_detail_name">name</string>
+    <string name="clothe_detail_comment">comment</string>
+    <string name="clothe_detail_brand">Marca: %s</string>
+    <string name="clothe_detail_price">Precio: $%s</string>
+
+    <!-- Test -->
+    <string name="dummy_test">Test</string>
+    <string name="color_test_indication">Responde honestamente las siguientes preguntas.</string>
+    <string name="color_test_question_one">¿El color de tus ojos tiene algo de amarillo?</string>
+    <string name="color_test_question_two">¿Tus ojos son claros?</string>
+    <string name="color_test_question_three">¿Tus ojos tienen un mismo color por completo?</string>
+    <string name="color_test_question_four">¿Cuando te asoleas tu piel se pone rojiza?</string>
+    <string name="color_test_question_five">¿Tu piel es blanca, marfil o rosada en el rostro?</string>
+    <string name="color_test_question_six">¿Tienes manchas, acné marcado o cicatrices en la piel de tu rostro?</string>
+    <string name="color_test_question_seven">¿El color de tu cabello tiene tonos amarillos o naranja?</string>
+    <string name="color_test_question_eight">¿Tu color de cabello tiene tonos más rubios o naranjas que otro color?</string>
+    <string name="color_test_question_nine">¿El color de tu cabello es de un solo tono?</string>
+    <string name="color_test_answer_yes">Si</string>
+    <string name="color_test_answer_no">No</string>
+    <string name="button_send">Enviar</string>
+
+    <!-- User profile -->
+    <string name="user_profile_name">Nombre de usuario</string>
+    <string name="user_profile_email">Correo electronico</string>
+    <string name="user_profile_genre">Género</string>
+    <string name="user_profile_color">Color</string>
+    <string name="user_profile_body">Cuerpo</string>
+
+    <!-- Characteristics -->
+    <string name="list_characteristic_desc">Descripción del rasgo</string>
+    <string name="characteristic_instruction">Selecciona los rasgos correspondientes a tu cuerpo</string>
+    <string name="caracteristicasl_cuerpo">Especificar caracteristicas del cuerpo</string>
+
+    <!-- Register form -->
+    <string name="form_register_name">Nombre</string>
+    <string name="form_register_email">Correo electrónico</string>
+    <string name="form_register_confirm_password">Confirmar contraseña</string>
+    <string name="form_register_signup">Registrar</string>
+    <string name="form_register_gender">Género</string>
+    <string name="form_register_gender_woman">Mujer</string>
+    <string name="form_register_gender_man">Hombre</string>
+    <string name="error_password_confirmation">La confirmación de contraseña no coincide</string>
+    <string name="form_register_gender_woman_value">woman</string>
+    <string name="form_register_gender_man_value">man</string>
+
+    <!-- Home -->
+    <string name="guest">Invitado</string>
+
+    <string name="offline">Sin conexión</string>
+    <string name="empty_list">Sin contenido</string>
+    <string name="hello_username">Hola %s</string>
+    <string name="your_closet_ideal">Tu closet ideal</string>
+    <string name="closet_fme">Closet FME</string>
+    <string name="looks">Estilos</string>
+    <string name="trends">Tendencias</string>
+    <string name="dress_code">Código de vestimenta</string>
+    <string name="your_style">Tu estilo</string>
+    <string name="tips">Tips</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="pasos">Pasos a seguir: </string>
+    <string name="continuar">Continuar</string>
+    <string name="tomar_fotografia_cuerpo">Tomar fotografia del cuerpo</string>
+    <string name="contestar_cuestionario">Contestar el cuestionario</string>
+    <string name="listo">¡¡Listo!!</string>
+
+    <string name="wishlist">Lista de deseos</string>
+    <string name="felicidades_text">Felicidades %s has completado la fase de indentificación y tus resultados serán utilizados para crear tu closet ideal!!</string>
+    <string name="tipo_de_cuerpo">Tipo de cuerpo:</string>
+    <string name="body_type">body_type</string>
+    <string name="estacion">Estación:</string>
+    <string name="color">color</string>
+    <string name="title_activity_trend">TrendActivity</string>
+    <string name="favs">Favoritos</string>
+
+    <string name="building">En construcción…</string>
+    <string name="category">Category</string>
+    <string name="mensaje_go_test">El cuerpo será calculado. Mientras, puedes contestar el test</string>
+    <string name="go">Ir</string>
+
+    <string name="color_test_question">Pregunta</string>
+    <string name="try_again">Reintentar</string>
+    <string name="share">Compartir</string>
+    <string name="share_with">Compartir con</string>
+
+    <string name="contact">Contacto</string>
+    <string name="create_look">Crear look</string>
+    <string name="options">Opciones</string>
+
+    <!-- Navigation drawer -->
+    <string name="home_item">Home</string>
+    <string name="productos_item">Productos</string>
+    <string name="compras_item">Carrito</string>
+    <string name="ordenes_item">Ordenes</string>
+    <string name="facturas_item">Facturas</string>
+    <string name="log_out_item">Cerrar Sesión</string>
+    <string name="configuracion_item">Configuración</string>
+
+    <string name="no_result">No hay resultados</string>
+    <string name="try_later">Intenta más tarde</string>
+    <string name="your_style_is">Tu estilo es:</string>
+    <string name="wayDressing">Way dressing</string>
+
+    <!-- Extra test colorimetria -->
+    <string name="questions_venas">¿De que color son tus venas?</string>
+    <string name="calido_1">
+        Piel: dorada, bronce o aceituna.\nOjos: miel, marrón oscuro, verdes o colores mezclados.\nCabello: Café , Castaño oscuro, rojizo, rubio dorado.
+    </string>
+    <string name="calido_2">
+        Piel: rosada, melocotón o color marfil.\nOjos: azul, verde, color miel, avellana.\nCabello: Negro, Café o Cenizo.
+    </string>
+    <string name="frio_1">
+        Piel: blanca, beige o color olivo.\nOjos: Color azul intenso, café oscuro o café avellana,\nCabello: Negro, Café o Cenizo.
+    </string>
+    <string name="frio_2">
+        Piel: rosada, beige claro, amarillento.\nOjos: gris azul, verde, dorados, avellana marrón.\nCabello: Rojo oscuro, rubio claro, rubio.
+    </string>
+    <string name="descripciones_pregunta">Con cual de estas descripciones te idenficas más:</string>
+
+    <!-- Make look -->
+    <string name="edit_text">Haz doble click para ingresar texto</string>
+    <string name="complete">Terminar</string>
+    <string name="publish_comment">Escribe algo…</string>
+    <string name="over_text_limit">Has excedido el limite de palabras</string>
+
+    <!-- CALENDAR -->
+    <string name="material_calendar_monday">L</string>
+    <string name="material_calendar_tuesday">M</string>
+    <string name="material_calendar_wednesday">M</string>
+    <string name="material_calendar_thursday">J</string>
+    <string name="material_calendar_friday">V</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">D</string>
+
+    <array name="material_calendar_months_array">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </array>
+
+    <string name="material_calendar_today_button">Hoy</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancelar</string>
+
+    <!-- Welcome text -->
+    <string name="welcome_title">Bienvenidos a Fashion Me, tu asesor de imagen personal.</string>
+    <string name="welcome_body">En Fme conocerás tu tipo de cuerpo así como los colores que son los ideales para ti.\n\n
+        Con estos resultados se creará tu closet ideal, único e irrepetible para que puedas armar los mejores looks dependiendo de tus características, estas prendas las podrás adquirir si lo deseas y aprenderás a tener un nuevo hábito de compra de acuerdo a tus propias características para verte siempre fenomenal.\n\n
+        Te daremos los mejores tips de cómo vestirte y siempre tendrás un look para cada ocasión.\n\n
+        Conocerás todas las tendencias y códigos de vestimenta para vestirte fácilmente y estar siempre a la moda, ya que de ahora en adelante sólo te pondrás lo que más te favorece!!!</string>
+
+    <string name="title_recommend">Recomendaciones</string>
+    <string name="suggestions">Sugerencias</string>
+    <string name="filter">Subcategorias</string>
+    <string name="show_looks">Ver looks</string>
+    <string name="look_saved">Look guardado</string>
+    <string name="or">ó</string>
+    <string name="resume">RESUME LOCATION UPDATES</string>
+    <string name="pause">Pausar</string>
+    <string name="about">Acerca de</string>
+    <string name="version_app">Versión %s</string>
+    <string name="visit_webpage">Visita la página web</string>
+    <string name="visit_instagram">Visitanos en Instagram</string>
+    <string name="trends_title_favorites">Tendencias</string>
+    <string name="tips_title_favorites">Tips</string>
+    <string name="trips_title_favorites">Viajes</string>
+    <string name="clothes_title_favorites">Ropa</string>
+    <string name="ways_title_favorites">Maneras de vestir</string>
+    <string name="configuration">Configuracion</string>
+    <string name="settings_list_language_dialog_title">Seleccionar idioma</string>
+    <string name="settings_list_language_title">Idioma</string>
+    <string name="settings">Ajustes</string>
+    <string name="item_home_recommendations">Recomendación</string>
+    <string name="item_home_create_look">Crear look</string>
+    <string name="item_home_journey">Viaje</string>
+    <string name="not_answer_test_style">No has contestado el test de estilo</string>
+    <string name="edit_photo_profile">Cambiar foto de perfil</string>
+    <string name="title_activity_settings">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Sincronizacion</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_photo_title">Foto de perfil</string>
+    <string name="photo_profile">Foto de perfil</string>
+    <string name="basic_configuration">Configuración basica</string>
+    <string name="gallery">Galería</string>
+    <string name="camera">Cámara</string>
+    <string name="delete_photo">Eliminar foto</string>
+    <string name="allow_access_location">¿Permitir que Fashion Me tenga acceso a tu ubicación?</string>
+    <string name="message_allow_gps">Fashion Me usa la ubicación para activar algunas funciones, ayudarte a tener sugerencias de ropa, conocer el clima y mucho más.</string>
+    <string name="allow_read_storage">¿Permitir que Fashion Me use el almacenamiento del teléfono?</string>
+    <string name="message_allow_read_storage">Fashion Me podrá almacenar y acceder a cierta información, como las fotos del teléfono y la tarjeta SD.</string>
+    <string name="button_deny_access">DENEGAR</string>
+    <string name="permission_denied">Permiso no concedido.</string>
+    <string name="button_allow_access">PERMITIR</string>
+    <string name="profile">Perfil</string>
+    <string name="shopping">Compras</string>
+    <string name="my_looks">Mis looks</string>
+    <string name="chat">Chat</string>
+    <string name="checklist_title" translatable="false">Checklist</string>
+    <string name="button_save">Guardar</string>
+    <string name="title_activity_settings_profile">Foto de perfil</string>
+
+    <string-array name="settings_list_languages">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string-array name="settings_list_languages_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="saving">Guardando…</string>
+
+    <string name="allow_camera_storage">Permisos a Fashion Me</string>
+    <string name="message_allow_camera_storage">Fashion Me podrá usar la camara, asi como almacenar y acceder a cierta información, como las fotos del teléfono y la tarjeta SD.</string>
+    <string name="error_show_body_photo">No se puede mostrar la imagen, intenta nuevamente</string>
+    <string name="sending">Enviando</string>
+    <string name="please_wait">Por favor espere</string>
+    <string name="error_password_unless_8">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="invalid_name_characters">Tu nombre no puede contener números o caracteres especiales</string>
+    <string name="btn_send_chat">Enviar</string>
+    <string name="user_profile_face">Rostro</string>
+    <string name="chat_assessor">Asesor</string>
+    <string name="not_open_activity_assessor_chat">No se pudo abrir la actividad de chat</string>
+    <string name="wait_assessor_message">Espera un momento en lo que se encuentra disponible un asesor</string>
+    <string name="exit">Salir</string>
+    <string name="loading">Cargando…</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="no_chats_pending">No hay solicitudes de chat</string>
+    <string name="no_chats_pending_description">Por el momento no hay solicitudes de chat disponibles, regresa mas tarde</string>
+    <string name="no_chats">No tienes chats</string>
+    <string name="no_chats_description">Aun no cuentas con chats de asesoramiento. Puedes seleccionar un asesoramiento en la seccion de solicitudes de chat.</string>
+    <string name="go_to_request_chat">Ir a solicitudes</string>
+    <string name="no_internet_connection_description">Vuelve a revisar tu conexión a Internet e inténtalo de nuevo</string>
+    <string name="algo_salio_mal">Vaya, algo ha salido mal. Intenta de nuevo</string>
+    <string name="ups" translatable="false">Ups...</string>
+    <string name="no_items">No se encontraron resultados</string>
+    <string name="no_items_description">El elemento que solicitaste no arrojo ningun resultado</string>
+    <string name="play">Reproducir</string>
+    <string name="show_contact">Ver contacto</string>
+    <string name="not_profile_found">No se pudo recuperar el perfil</string>
+    <string name="no_register">No hay registro</string>
+
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="form_register_country">Pais</string>
+    <string name="not_genre_selected">No has seleccionado genero</string>
+    <string name="not_country_selected">No has seleccionado tu pais</string>
+    <string name="item_home_hair">Cabello</string>
+    <string name="item_home_visagism">Visagismo</string>
+    <string name="item_home_makeup">Maquillaje</string>
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="form_register_birthday">Fecha de nacimiento</string>
+    <string name="get_premium">Actualiza tu suscripcion a Premium para poder acceder a este elemento</string>
+    <string name="finish_trial_get_premium">La prueba ha finalizado. Actualiza tu suscripcion a Premium para seguir usando este elemento</string>
+    <string name="help">Ayuda</string>
+    <string name="forgot_password">¿Olvidaste tu Contraseña?</string>
+    <string name="recover_password">Recuperar Contraseña</string>
+    <string name="action_recover_password">Recuperar contraseña</string>
+    <string name="purchase">Compras</string>
+    <string name="button_buy">Comprar</string>
+
+    <!-- Items home description premium -->
+    <string name="premium_description_ideal_closet">Suscribete a Premium y obten sugerencias de ropa en tu closet ideal</string>
+    <string name="premium_description_style">Suscribete a Premium para contestar el test de estilos y obtener el estilo adecuado para ti</string>
+    <string name="premium_description_visagism">Conoce tu tipo de rostro y tips para maquillaje actualizando tu suscripcion a Premium</string>
+    <string name="premium_description_face">Conoce tu tipo de rostro actualizando tu suscripcion a Premium</string>
+    <string name="premium_description_dresscode">Para conocer los codigos de vestimenta actualiza tu suscripcion a Premium</string>
+    <string name="premium_description_journey">Obten tips de ropa para llevar a tus viajes y crea tu checklist actualizando tu suscripcion a Premium</string>
+    <string name="congrats_premium_title">Felicidades ya eres Premium</string>
+    <string name="congrats_premium_body">Ya puedes acceder a todas las características de la aplicación</string>
+    <string name="premium_updated">Premium actualizado</string>
+
+    <!-- Settings -->
+    <string name="settings_toolbar_title">Toolbar</string>
+    <string name="settings_toolbar_description">Cambia el color de la toolbar</string>
+    <string name="settings_icons_description">Cambia el color de los iconos en el menu principal</string>
+    <string name="settings_icons_title">Iconos</string>
+    <string name="my_closet_profile">Mi closet</string>
+    <string name="title_activity_my_closet">Mi closet</string>
+    <string name="title_activity_register_closet">Registrar ropa</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="register_clothe_hint_name">Escribe un nombre para tu foto</string>
+    <string name="register_clothe_options_title">Selecciona las opciones de pertenencia a esta prenda</string>
+    <string name="register_clothe_climates_title">Climas</string>
+    <string name="register_clothe_subcategories_title">Subcategorias</string>
+    <string name="register_clothe_colors_title">Colores</string>
+    <string name="register_closet_tv_value_name">seleccionados</string>
+    <string name="option_select">Selecciona una opcion</string>
+    <string name="select_photo">Selecciona una foto</string>
+    <string name="premium_subscription_title">Suscripción a Premium</string>
+
+</resources>

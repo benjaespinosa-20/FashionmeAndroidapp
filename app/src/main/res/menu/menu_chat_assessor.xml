@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_chat_assessor_show_contact"
+        android:title="@string/show_contact"
+        android:orderInCategory="100"
+        />
+
+
+
+</menu>

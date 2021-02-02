@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.MakeLookActivity"
+    >
+
+    <item
+        android:id="@+id/menu_item_add_text"
+        android:orderInCategory="100"
+        android:title="Agregar texto"
+        android:iconTint="@color/colorWhite"
+        />
+
+    <item
+        android:id="@+id/menu_item_save"
+        android:orderInCategory="101"
+        android:title="Guardar"
+        android:iconTint="@color/colorWhite"
+        />
+
+    <item
+        android:id="@+id/menu_item_add_calendar"
+        android:orderInCategory="102"
+        android:title="Agregar al calendario"
+        android:iconTint="@color/colorWhite"
+        />
+
+</menu>

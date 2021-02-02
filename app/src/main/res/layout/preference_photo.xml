@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <!-- Imagen del perfil -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgCircleProfile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_account_circle_black_48"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_photo_camera_24dp_white"
+        android:theme="@style/custom_fab"
+        app:layout_anchorGravity="bottom|right"
+        app:layout_anchor="@id/linearLayout"
+        app:fab_size="normal"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

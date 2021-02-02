@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cvLook"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="4dp"
+        android:layout_margin="4dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            >
+
+            <TextView
+                android:id="@+id/tvHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+            <ImageView
+                android:id="@+id/imgLook"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tvHead"
+                android:layout_centerInParent="true"
+                />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvOptions"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+                <!--android:paddingStart="@dimen/activity_horizontal_margin"-->
+                <!--android:text="&#8942;"-->
+                <!--android:textAppearance="?android:textAppearanceLarge"-->
+                <!--/>-->
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+
+<!--<android.support.v7.widget.CardView-->
+<!--android:id="@+id/cvLook"-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+
+    <!--&gt;-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/imgLook"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:layout_gravity="center"-->
+    <!--/>-->
+
+<!--</android.support.v7.widget.CardView>-->

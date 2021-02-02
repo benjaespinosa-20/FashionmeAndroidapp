@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642642949542",
+    "project_id": "fashion-me-fay",
+    "storage_bucket": "fashion-me-fay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642642949542:android:fc15aa4561cc31136b4b67",
+        "android_client_info": {
+          "package_name": "mx.app.fashionme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642642949542-ofkslpk4coo3eeb2ivuocb8jt18o6gtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm_tSZJEOxu0DbllQPj1VSYIpFmR4qvNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642642949542-ofkslpk4coo3eeb2ivuocb8jt18o6gtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home_item" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_favs"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/favs" />
+        <item
+            android:id="@+id/nav_buys"
+            android:icon="@drawable/ic_shopping_cart_black"
+            android:title="@string/shopping" />
+        <item
+            android:id="@+id/nav_looks"
+            android:icon="@drawable/new_ic_home_make_look_black"
+            android:title="@string/my_looks" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/nav_asesor"
+            android:icon="@drawable/ic_headset_black_24dp"
+            android:title="@string/chat_assessor" />
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/configuracion_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="@string/configuration"
+                    />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="@string/about" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_action_help_24_black"
+                    android:title="@string/help" />
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/log_out_item" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

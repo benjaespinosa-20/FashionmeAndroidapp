@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_look_add_to_calendar"
+        android:title="Agregar look al calendario"
+        />
+    <item
+        android:id="@+id/menu_look_delete"
+        android:title="Eliminar look"
+        />
+
+</menu>

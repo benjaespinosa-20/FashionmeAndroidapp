@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="?attr/actionBarSize"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appbarBottomSheet"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        app:title="@string/suggestions"
+        app:titleTextAppearance="@style/ToolbarTextAppearance.Title"
+        style="@style/bottomSheet"
+        android:elevation="@dimen/actionbar_elevation"
+        >
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/baseline_keyboard_arrow_up_black_48"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filter"
+        android:theme="@style/myButtons"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

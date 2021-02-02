@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvContentTrendTip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp"
+        >
+
+        <TextView
+            android:id="@+id/tvTitleTrendTip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:textAppearance="@android:style/TextAppearance"
+            android:layout_marginBottom="15dp"
+            tools:text="TITLE" />
+
+        <TextView
+            android:id="@+id/tvDescTrendTip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            tools:text="DESCRIPTION DESCRIPTION DESCRIPTION"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

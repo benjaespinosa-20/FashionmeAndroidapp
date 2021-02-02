@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="bottomSheet">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>

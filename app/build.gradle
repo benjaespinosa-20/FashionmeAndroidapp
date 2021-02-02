@@ -1,0 +1,181 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "mx.app.fashionme"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.2"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            useProguard false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            testCoverageEnabled true
+        }
+        release {
+            minifyEnabled false
+            useProguard true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    def billing_version = "3.0.2"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    //multidex
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // Support
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // ReactiveX
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+
+    // OkHttp
+    implementation 'com.squareup.okhttp3:okhttp:4.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.6.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:4.6.0'
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+
+    // Dagger
+    implementation 'com.google.dagger:dagger:2.24'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.16'
+
+    // Dagger Android
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.16'
+    implementation 'com.google.dagger:dagger-android:2.16'
+    implementation 'com.google.dagger:dagger-android-support:2.16' // if you use the support libraries
+
+    // Room
+    implementation 'androidx.room:room-runtime:2.2.6'
+    implementation 'androidx.room:room-rxjava2:2.2.6' // optional - RxJava support for Room
+    annotationProcessor 'androidx.room:room-compiler:2.2.6' // For Kotlin use kapt instead of annotationProcessor
+
+    // Navigation
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
+
+    // Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    // Calligraphy
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+    // GMS
+    implementation 'com.google.android.gms:play-services-tagmanager:17.0.0'
+
+    // Keyboard visibility
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:18.0.1'
+    implementation 'com.google.firebase:firebase-database:19.6.0'
+    implementation 'com.google.firebase:firebase-config:19.1.4'
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+    implementation 'com.google.firebase:firebase-storage:19.2.1'
+    implementation 'com.google.firebase:firebase-auth:20.0.2'
+    implementation 'com.google.firebase:firebase-analytics:18.0.1'
+    implementation 'com.firebaseui:firebase-ui-database:3.3.1' // Firebase UI
+
+    // Crashlytics
+    //implementation 'com.crashlytics.sdk.android:crashlytics:17.2.2'
+
+    // Circle image view
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    // Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    // Butterknife
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    // Floating action buttons
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+
+    // Clarifai
+    implementation 'com.clarifai.clarifai-api2:core:2.3.0'  // pendiente
+
+    // Slider
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+
+    // Material calendar
+    implementation 'com.applandeo:material-calendar-view:1.5.1'
+
+    // Material Dialogs
+    // https://aidanfollestad.com
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+
+    // PhotoView library
+    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+
+    // Glide
+    //implementation 'com.github.bumptech.glide:glide:4.7.1'
+
+    // SimpleVideoView
+    implementation 'com.klinkerapps:simple_videoview:1.2.4'
+
+    // FrescoImageViewer
+    implementation 'com.facebook.fresco:fresco:1.10.0'
+    implementation 'com.github.stfalcon:frescoimageviewer:0.5.0'
+
+    // CameraActivity view
+    implementation 'com.otaliastudios:cameraview:1.6.0'
+
+    // Country code picker
+    implementation 'com.hbb20:ccp:2.2.3'
+
+    // Color preference library
+    implementation 'com.github.kizitonwose.colorpreference:core:1.0.6'
+    implementation 'com.github.kizitonwose.colorpreference:support:1.0.6'
+
+    // Youtube
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+
+    // Billing client
+    implementation "com.android.billingclient:billing:3.0.2"
+
+    // Tests
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'org.mockito:mockito-core:2.21.0'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test:rules:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.6.0'
+}

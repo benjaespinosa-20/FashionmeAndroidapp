@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_start"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fme_background_black"
+    tools:context=".view.StartActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v_guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h_guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <Button
+        android:id="@+id/btnLoginNormal"
+        android:text="@string/action_sign_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintTop_toTopOf="@+id/h_guideline1"
+        android:background="@drawable/fme_button_bg"
+        />
+
+    <!--<Button-->
+        <!--android:text="Facebook Login"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/fbLoginButton"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--app:layout_constraintRight_toLeftOf="@+id/v_guideline2"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/btnLoginNormal"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"-->
+        <!--android:drawableLeft="@drawable/ic_action_facebook"-->
+        <!--android:background="@drawable/fb_button_bg"/>-->
+
+    <Button
+        android:text="@string/action_sign_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:textColor="@android:color/white"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        android:background="@drawable/other_acc_button_bg"
+        app:layout_constraintTop_toBottomOf="@+id/orView"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/orView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginNormal"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        >
+
+        <View
+            android:id="@+id/viewLine1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0.6"
+            />
+
+        <TextView
+            android:id="@+id/tvOr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/or"
+            />
+
+        <View
+            android:id="@+id/viewLine2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0.6"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

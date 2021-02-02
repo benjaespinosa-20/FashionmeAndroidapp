@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvImageDC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/ivDC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ic_clothe_test"
+            />
+
+        <TextView
+            android:id="@+id/tvDCTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            android:padding="8dp"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/tvDCDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quam turpis, commodo at purus et, commodo tempus tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed interdum vel sapien id sagittis. Aenean id pulvinar magna, vel varius felis. Nam id nulla lorem. Sed orci nulla, cursus at tempus vel, tempus ac sapien. Aenean sed vehicula lorem, at auctor nunc. Sed ullamcorper ullamcorper aliquet. Praesent quis turpis imperdiet, cursus dui in, efficitur augue."
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

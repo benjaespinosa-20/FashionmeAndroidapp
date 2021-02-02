@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/basic_configuration">
+        <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to dismiss it. -->
+        <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/settings_list_languages"
+            android:entryValues="@array/settings_list_languages_values"
+            android:key="language"
+            android:dialogTitle="@string/settings_list_language_dialog_title"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_list_language_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Colores">
+
+        <com.kizitonwose.colorpreference.ColorPreference
+            android:defaultValue="@color/colorPrimary"
+            android:key="toolbar-key"
+            android:summary="@string/settings_toolbar_description"
+            android:title="@string/settings_toolbar_title"
+            app:colorShape="circle"
+            app:colorChoices="@array/color_choices"
+            app:viewSize="large"
+            app:numColumns="5"
+            app:showDialog="true"
+            />
+
+        <com.kizitonwose.colorpreference.ColorPreference
+            android:defaultValue="@color/colorPrimary"
+            android:key="icon-key"
+            android:summary="@string/settings_icons_description"
+            android:title="@string/settings_icons_title"
+            app:colorShape="circle"
+            app:colorChoices="@array/color_choices"
+            app:viewSize="large"
+            app:numColumns="5"
+            app:showDialog="true"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
